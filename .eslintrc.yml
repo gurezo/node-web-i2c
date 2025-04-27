@@ -12,6 +12,7 @@ ignorePatterns:
   # 除外対象
   - ./node_modules
   - ./dist
+  - "**/*.d.ts"
 extends:
   - "eslint:recommended"
   - "plugin:@typescript-eslint/recommended"
