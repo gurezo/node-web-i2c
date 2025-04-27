@@ -64,10 +64,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@types/i2c-bus@^5.1.0":
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/@types/i2c-bus/-/i2c-bus-5.1.0.tgz"
-  integrity sha512-zBwBpfaFzKtYaS2j/sh+m/zKRcbXuG26/wWlJq3F9+oWXQ9DSxuJXOU+t1PMorj3DBZzpLO8LqbVTGRE1PUb3g==
+"@types/i2c-bus@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@types/i2c-bus/-/i2c-bus-5.1.2.tgz#7cca734b0cf8d72db5cd09c397da6852e12355ab"
+  integrity sha512-Zph1a3TZnvU8yUEhR8Yvv+Fv61dE3WQ2gMs4B2KgBUuKYE73quagMvmUN9EvRIbf4B+zq1WKMYjLOafdNus1ig==
   dependencies:
     "@types/node" "*"
 
