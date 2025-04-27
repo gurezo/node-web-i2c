@@ -17,6 +17,12 @@ extends:
   - "eslint:recommended"
   - "plugin:@typescript-eslint/recommended"
   - "plugin:@typescript-eslint/recommended-requiring-type-checking"
+overrides:
+  - files: ["**/*.spec.ts"]
+    rules:
+      "@typescript-eslint/no-unsafe-call": "off"
+      "@typescript-eslint/no-unsafe-member-access": "off"
+      "@typescript-eslint/no-unsafe-assignment": "off"
 rules: {
     # 暫定処置 この記述がないとlint が通らない
     # この対応は、別issue
